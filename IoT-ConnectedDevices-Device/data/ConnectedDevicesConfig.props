@@ -11,7 +11,7 @@ host = smtp.gmail.com
 port = 465
 fromAddr = jiaoyi199507@gmail.com
 toAddr = jiao.yi1@husky.neu.edu
-authToken = jxjy2006
+authToken = xxx
 enableAuth = True
 enableCrypt = False
 
