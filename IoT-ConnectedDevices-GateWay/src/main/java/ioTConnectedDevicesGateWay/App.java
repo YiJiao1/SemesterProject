@@ -4,7 +4,7 @@ package ioTConnectedDevicesGateWay;
 public class App extends Thread {
 	String pem_path = "/Users/heychris/Downloads/IoT-Project-master/IoTGatewayJava/IoT-ConnectedDevices-GateWay/data/ubidots_cert.pem";
 	private String sensorData_path = "/Users/heychris/Desktop/iot-gateway/IoT-ConnectedDevices-GateWay/data/TempSensor";
-	private String authtoken = "A1E-OsFn83PNkaVrBDYHz6tFIGCB0UXcdi";
+	private String authtoken = "{token}";
 	private String tempCurTopic = "/v1.6/devices/iot-device/tempsensor";
 	private String tempAveTopic = "/v1.6/devices/iot-device/tempaverage";
 	private String tempActuTopic = "/v1.6/devices/iot-device/tempactuator/lv";
