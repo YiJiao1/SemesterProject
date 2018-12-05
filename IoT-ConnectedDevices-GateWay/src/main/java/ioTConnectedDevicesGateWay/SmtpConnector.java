@@ -9,7 +9,7 @@ import java.util.Properties;
 public class SmtpConnector {
 	
 	public static String myEmailAccount = "jiaoyi199507@gmail.com";
-	public static String myEmailPassword = "jxjy2006";
+	public static String myEmailPassword = "xxxxxx";
 	public static String myEmailSMTPHost = "smtp.gmail.com";
 	public static String receiveMailAccount = "jiao.yi1@husky.neu.edu";
 	public static String smtpPort = "465";
