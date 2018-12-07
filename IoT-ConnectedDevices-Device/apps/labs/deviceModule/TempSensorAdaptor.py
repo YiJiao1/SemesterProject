@@ -45,8 +45,8 @@ class TempSensorAdaptor(Thread):
     def getCurrValue(self):
         return self.curTemp
     
-#     TempSensorEmulator thread which  gets newTemp around min / max updatetime(In this part we set the time is 5 sec)
-#      thread to calculate the curVal exceeds average than 5. then send the data to remote if temperature different than 5
+#     TempSensorEmulator thread which  gets newTemp around min / max updatetime(In this part we set the time is 1 sec)
+#      thread to calculate the curVal . then send the data to MQtt broker if temperature different 
 
     def run(self):
         while True:
